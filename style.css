@@ -1,0 +1,28 @@
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  text-align: center;
+  font-size: 3rem;
+  font-family: Bebas Neue, sans-serif;
+}
+.image-container {
+  margin: 10px 30%;
+}
+.image-container img {
+  width: 100%;
+  margin-top: 5px;
+}
+@media screen and (max-width: 600px) {
+  header {
+    font-size: 1.5rem;
+  }
+  .image-container {
+    margin: 10px;
+  }
+}
